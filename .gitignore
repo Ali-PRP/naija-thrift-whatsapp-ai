@@ -1,0 +1,12 @@
+# Virtual Environment & Python Cache
+venv/
+__pycache__/
+*.pyc
+
+# Secret API Keys & Google Credentials (NEVER UPLOAD)
+.env
+credentials.json
+
+# Customer Privacy: Raw WhatsApp Exports & Real Persona Prompt
+raw_chats/
+prompts/persona.private.txt
